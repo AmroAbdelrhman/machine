@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="fries" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="shawerma" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="poutine" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="falafel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="sushi" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="cola" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="water" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="numofwater" pref="78" max="32767" attributes="0"/>
+                      <Component id="numofcola" max="32767" attributes="0"/>
+                      <Component id="numofsushi" max="32767" attributes="0"/>
+                      <Component id="numoffalafel" max="32767" attributes="0"/>
+                      <Component id="numofshawerma" max="32767" attributes="0"/>
+                      <Component id="numoffries" max="32767" attributes="0"/>
+                      <Component id="numofpoutine" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Donation" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="howmuch" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="donation" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="calculatetotal" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tax" min="-2" max="-2" attributes="0"/>
+                      <Component id="total" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="subtotal" pref="75" max="32767" attributes="0"/>
+                      <Component id="grandprice" max="32767" attributes="0"/>
+                      <Component id="taxresult" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="fries" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numoffries" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="shawerma" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numofshawerma" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="poutine" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numofpoutine" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="falafel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numoffalafel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="sushi" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numofsushi" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cola" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numofcola" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="water" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numofwater" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="Donation" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="howmuch" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="donation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="calculatetotal" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="97" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="subtotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tax" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="taxresult" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="total" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="grandprice" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="fries">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fries ($4.99)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numoffries">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numoffriesActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="shawerma">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Shawerma ($4.99)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numofshawerma">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numofshawermaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="poutine">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Poutine ($6.99)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numofpoutine">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numofpoutineActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="falafel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Falafel ($0.29)l"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numoffalafel">
+        </Component>
+        <Component class="javax.swing.JLabel" name="sushi">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sushi ($2.99)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numofsushi">
+        </Component>
+        <Component class="javax.swing.JLabel" name="cola">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cola ($1.49)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numofcola">
+        </Component>
+        <Component class="javax.swing.JLabel" name="water">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Water ($18.22)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numofwater">
+        </Component>
+        <Component class="javax.swing.JLabel" name="total">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="grandprice">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="grandpriceActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="calculatetotal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calculatetotalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Donation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Would you like to donate ??"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="howmuch">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="How much?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="donation">
+        </Component>
+        <Component class="javax.swing.JLabel" name="tax">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tax (13%)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="taxresult">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Subtotal"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="subtotal">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
